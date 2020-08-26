@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.domedd.betternick</groupId>
+  <artifactId>BetterNick</artifactId>
+  <versioning>
+    <versions>
+      <version>7.4-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200826094323</lastUpdated>
+  </versioning>
+</metadata>
