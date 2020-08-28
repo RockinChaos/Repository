@@ -3,9 +3,11 @@
   <groupId>me.RockinChaos.itemjoin</groupId>
   <artifactId>ItemJoin</artifactId>
   <versioning>
+    <release>5.0.7-RELEASE</release>
     <versions>
       <version>5.0.7-SNAPSHOT</version>
+      <version>5.0.7-RELEASE</version>
     </versions>
-    <lastUpdated>20200828214433</lastUpdated>
+    <lastUpdated>20200828233601</lastUpdated>
   </versioning>
 </metadata>
