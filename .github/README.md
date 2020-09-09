@@ -1,5 +1,5 @@
 <p align="center">
- See <a href="https://github.com/RockinChaos/Repository/wiki">Repository Wiki</a> for the full detailed documentation on the usage.<br>
+ See the <a href="https://github.com/RockinChaos/Repository/wiki">Repository Wiki</a> for the full detailed documentation on the usage.<br>
 </p>
 
 ## Repository - [maven-public]
@@ -10,7 +10,7 @@ This repository is comprised of compiled snapshots and releases of CraftationGam
 You can use this Repository with both Maven and Gradle.
 ----
 
-####Import with Maven
+#### Import with Maven
 ----
 * You can copy-paste the information below into your maven pom.xml
 * Simply replace the groupId with the project path found in this Repository, an example would be `me.RockinChaos.itemjoin`
@@ -34,7 +34,7 @@ You can use this Repository with both Maven and Gradle.
 ```
 ----
 
-####Import with Gradle
+#### Import with Gradle
 ----
 * You can copy-paste the information below into your Gradle configuration, nothing should need to be changed.
 ```
