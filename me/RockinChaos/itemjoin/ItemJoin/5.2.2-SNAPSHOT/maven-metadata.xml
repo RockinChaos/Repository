@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>me.RockinChaos.itemjoin</groupId>
+  <artifactId>ItemJoin</artifactId>
+  <version>5.2.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210302.081532</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20210302081532</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>5.2.2-20210302.081532-3</value>
+        <updated>20210302081532</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>5.2.2-20210302.081532-3</value>
+        <updated>20210302081532</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
