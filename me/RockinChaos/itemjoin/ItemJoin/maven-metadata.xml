@@ -3,7 +3,7 @@
   <groupId>me.RockinChaos.itemjoin</groupId>
   <artifactId>ItemJoin</artifactId>
   <versioning>
-    <release>5.2.1-RELEASE</release>
+    <release>5.2.2-RELEASE</release>
     <versions>
       <version>5.0.7-SNAPSHOT</version>
       <version>5.0.7-RELEASE</version>
@@ -15,7 +15,8 @@
       <version>5.2.1-SNAPSHOT</version>
       <version>5.2.1-RELEASE</version>
       <version>5.2.2-SNAPSHOT</version>
+      <version>5.2.2-RELEASE</version>
     </versions>
-    <lastUpdated>20210613071155</lastUpdated>
+    <lastUpdated>20210613195531</lastUpdated>
   </versioning>
 </metadata>
