@@ -16,7 +16,8 @@
       <version>5.2.1-RELEASE</version>
       <version>5.2.2-SNAPSHOT</version>
       <version>5.2.2-RELEASE</version>
+      <version>5.2.3-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210613195531</lastUpdated>
+    <lastUpdated>20210619235654</lastUpdated>
   </versioning>
 </metadata>
