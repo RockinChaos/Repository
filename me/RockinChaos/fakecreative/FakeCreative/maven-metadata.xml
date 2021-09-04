@@ -3,10 +3,9 @@
   <groupId>me.RockinChaos.fakecreative</groupId>
   <artifactId>FakeCreative</artifactId>
   <versioning>
-    <release>1.0.0-RELEASE</release>
     <versions>
-      <version>1.0.0-RELEASE</version>
+      <version>1.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210904100047</lastUpdated>
+    <lastUpdated>20210904101522</lastUpdated>
   </versioning>
 </metadata>

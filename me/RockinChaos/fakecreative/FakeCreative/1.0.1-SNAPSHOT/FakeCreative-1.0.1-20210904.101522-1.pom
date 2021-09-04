@@ -1,16 +1,16 @@
-<!-- ItemJoin build file -->
+<!-- FakeCreative build file -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
 	<packaging>jar</packaging>
-	<groupId>me.RockinChaos.itemjoin</groupId>
-	<artifactId>ItemJoin</artifactId>
-	<name>ItemJoin</name>
-	<version>5.2.3-SNAPSHOT</version>
-	<description>Get custom items on join.</description>
-	<url>https://www.spigotmc.org/resources/itemjoin.12661/</url>
+	<groupId>me.RockinChaos.fakecreative</groupId>
+	<artifactId>FakeCreative</artifactId>
+	<name>FakeCreative</name>
+	<version>1.0.1-SNAPSHOT</version>
+	<description>A creative gamemode plugin.</description>
+	<url>https://www.spigotmc.org/resources/fakecreative/</url>
 	
 	<build>
 		<sourceDirectory>${project.basedir}</sourceDirectory>
@@ -64,7 +64,7 @@
 				<artifactId>site-maven-plugin</artifactId>
 				<version>0.11</version>
 				<configuration>
-					<message>Published artifacts me.RockinChaos.itemjoin.ItemJoin:${project.version}</message>
+					<message>Published artifacts me.RockinChaos.fakecreative.FakeCreative:${project.version}</message>
 					<outputDirectory>${env.JENKINS_HOME}/maven-public</outputDirectory>
 					<branch>refs/heads/maven-public</branch>
 					<includes>
@@ -88,7 +88,7 @@
 				<artifactId>maven-shade-plugin</artifactId>
 				<version>3.2.1</version>
 				<configuration>
-					<finalName>ItemJoin-${project.version}-b${env.BUILD_NUMBER}</finalName>
+					<finalName>FakeCreative-${project.version}-b${env.BUILD_NUMBER}</finalName>
 				</configuration>
 				<executions>
 					<execution>
@@ -133,46 +133,16 @@
 			<id>mojang</id>
 			<url>https://libraries.minecraft.net/</url>
 		</repository>
-		<!--AuthMe / bStats Repository-->
+		<!--bStats Repository-->
 		<repository>
 			<id>CodeMC</id>
 			<url>https://repo.codemc.org/repository/maven-public</url>
-		</repository>
-		<!-- HeadDatabase-API -->
-		<repository>
-			<id>headdatabase-api</id>
-			<url>https://mvn.intellectualsites.com/content/repositories/thirdparty/</url>
-		</repository>
-		<!--TokenEnchant Repository-->
-		<repository>
-			<id>teamvk-repo</id>
-			<url>https://raw.githubusercontent.com/TeamVK/maven-repository/master/release/</url>
 		</repository>
 		<!--SkinsRestorer Repository-->
 		<repository>
 			<id>codemc-snapshots</id>
 			<url>https://repo.codemc.org/repository/maven-snapshots/</url>
 		</repository>
-		<!--WorldGuard/WorldEdit Repository-->
-		<repository>
-			<id>sk89q-repo</id>
-			<url>https://maven.enginehub.org/repo/</url>
-		</repository>
-		<!--Vault Repository-->
-		<repository>
-			<id>VaultAPI</id>
-			<url>https://ci.ender.zone/plugin/repository/everything/net/milkbowl/vault/</url>
-		</repository>
-		<!--Citizens Repository-->
-        <repository>
-            <id>everything</id>
-            <url>https://repo.citizensnpcs.co/</url>
-        </repository>
-		<!--ChestSort Repository-->
-        <repository>
-            <id>jeff-media-repo</id>
-            <url>https://repo.jeff-media.de/maven2</url>
-        </repository>
 		<!--ProtocolLib Repository-->
         <repository>
             <id>dmulloy2-repo</id>
@@ -193,13 +163,6 @@
 			<version>4.1.65.Final</version>
 			<scope>provided</scope>
 		</dependency>
-		<!--Maven WorldUtils API-->
-		<dependency>
-			<groupId>commons-lang</groupId>
-			<artifactId>commons-lang</artifactId>
-			<version>2.6</version>
-			<scope>provided</scope>
-		</dependency>
 		<!--Spigot API-->
 		<dependency>
 			<groupId>org.spigotmc</groupId>
@@ -214,34 +177,6 @@
 			<version>2.10.9</version>
 			<scope>provided</scope>
 		</dependency>
-		<!--AuthMe API-->
-		<dependency>
-			<groupId>fr.xephi</groupId>
-			<artifactId>authme</artifactId>
-			<version>5.6.0-SNAPSHOT</version>
-			<scope>provided</scope>
-		</dependency>
-		<!--Vault API-->
-		<dependency>
-			<groupId>net.milkbowl.vault</groupId>
-			<artifactId>VaultAPI</artifactId>
-			<version>1.7</version>
-			<scope>provided</scope>
-		</dependency>
-		<!--HeadDatabase API-->
-		<dependency>
-			<groupId>me.arcaniax</groupId>
-			<artifactId>HeadDatabase-API</artifactId>
-			<version>1.0.0</version>
-			<scope>provided</scope>
-		</dependency>
-		<!--TokenEnchant API-->
-		<dependency>
-			<groupId>com.vk2gpz.tokenenchant</groupId>
-			<artifactId>TokenEnchantAPI</artifactId>
-			<version>18.18.1</version>
-			<scope>provided</scope>
-		</dependency>
 		<!--SkinsRestorer API-->
 		<dependency>
 			<groupId>net.skinsrestorer</groupId>
@@ -249,21 +184,6 @@
 			<version>14.1.1</version>
 			<scope>provided</scope>
 		</dependency>
-		<!--Citizens API-->
-        <dependency>
-            <groupId>net.citizensnpcs</groupId>
-            <artifactId>citizens</artifactId>
-            <version>2.0.27-SNAPSHOT</version>
-            <type>jar</type>
-       	    <scope>provided</scope>
-        </dependency>
-		<!--ChestSort API-->
-        <dependency>
-            <groupId>de.jeff_media</groupId>
-            <artifactId>ChestSortAPI</artifactId>
-            <version>4.0.1</version>
-       	    <scope>provided</scope>
-        </dependency>
 		<!--ProtocolLib API-->
         <dependency>
             <groupId>com.comphenix.protocol</groupId>
@@ -285,36 +205,11 @@
 			<version>1.4</version>
 			<scope>provided</scope>
 		</dependency>
-		<!--Apache API-->
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.7</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-api</artifactId>
-			<version>2.13.3</version>
-			<scope>provided</scope>
-		</dependency>
 		<!--Google API-->
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
 			<version>1.1.1</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>30.1.1-jre</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.8.7</version>
 			<scope>provided</scope>
 		</dependency>
 		<!--BetterNick API-->
@@ -324,41 +219,27 @@
 			<version>7.4-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
-		<!--WorldGuard API-->
-		<dependency>
-			<groupId>com.sk89q.worldguard</groupId>
-			<artifactId>worldguard-bukkit</artifactId>
-			<version>7.0.4-SNAPSHOT</version>
-			<scope>provided</scope>
-		</dependency>
-		<!--WorldEdit API-->
-		<dependency>
-			<groupId>com.sk89q.worldedit</groupId>
-			<artifactId>worldedit-bukkit</artifactId>
-			<version>7.2.0-SNAPSHOT</version>
-			<scope>provided</scope>
-		</dependency>
 	</dependencies>
 	
 	<scm>
-		<url>https://github.com/RockinChaos/ItemJoin</url>
-		<connection>scm:git:ssh://git@github.com/RockinChaos/ItemJoin</connection>
-		<developerConnection>scm:git:ssh://git@github.com/RockinChaos/ItemJoin.git</developerConnection>
+		<url>https://github.com/RockinChaos/FakeCreative</url>
+		<connection>scm:git:ssh://git@github.com/RockinChaos/FakeCreative</connection>
+		<developerConnection>scm:git:ssh://git@github.com/RockinChaos/FakeCreative.git</developerConnection>
 	</scm>
 	
 	<organization>
-		<name>ItemJoin</name>
-		<url>https://github.com/RockinChaos/ItemJoin</url>
+		<name>FakeCreative</name>
+		<url>https://github.com/RockinChaos/FakeCreative</url>
 	</organization>
 	
 	<issueManagement>
-		<url>https://github.com/RockinChaos/ItemJoin/issues</url>
+		<url>https://github.com/RockinChaos/FakeCreative/issues</url>
 		<system>Github</system>
 	</issueManagement>
 	
 	<ciManagement>
 		<system>Jenkins</system>
-		<url>https://ci.craftationgaming.com/job/ItemJoin/</url>
+		<url>https://ci.craftationgaming.com/job/FakeCreative/</url>
 	</ciManagement>
 	
 	<distributionManagement>
