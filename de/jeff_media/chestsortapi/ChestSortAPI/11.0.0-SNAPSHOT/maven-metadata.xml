@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>de.jeff_media.chestsortapi</groupId>
+  <artifactId>ChestSortAPI</artifactId>
+  <version>11.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20200826.103908</timestamp>
+      <buildNumber>4</buildNumber>
+    </snapshot>
+    <lastUpdated>20200826103908</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>11.0.0-20200826.103908-4</value>
+        <updated>20200826103908</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>11.0.0-20200826.103908-4</value>
+        <updated>20200826103908</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
