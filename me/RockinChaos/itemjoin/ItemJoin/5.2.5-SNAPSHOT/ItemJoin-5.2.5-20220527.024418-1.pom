@@ -8,7 +8,7 @@
 	<groupId>me.RockinChaos.itemjoin</groupId>
 	<artifactId>ItemJoin</artifactId>
 	<name>ItemJoin</name>
-	<version>5.2.4-SNAPSHOT</version>
+	<version>5.2.5-SNAPSHOT</version>
 	<description>Get custom items on join.</description>
 	<url>https://www.spigotmc.org/resources/itemjoin.12661/</url>
 	
@@ -173,11 +173,6 @@
             <id>everything</id>
             <url>https://repo.citizensnpcs.co/</url>
         </repository>
-		<!--ChestSort Repository-->
-        <repository>
-            <id>jeff-media-repo</id>
-            <url>https://repo.jeff-media.de/maven2</url>
-        </repository>
 		<!--ProtocolLib Repository-->
         <repository>
             <id>dmulloy2-repo</id>
@@ -262,13 +257,6 @@
             <type>jar</type>
        	    <scope>provided</scope>
         </dependency>
-		<!--ChestSort API-->
-        <dependency>
-            <groupId>de.jeff_media</groupId>
-            <artifactId>ChestSortAPI</artifactId>
-            <version>11.0.0-SNAPSHOT</version>
-       	    <scope>provided</scope>
-        </dependency>
 		<!--ProtocolLib API-->
         <dependency>
             <groupId>com.comphenix.protocol</groupId>
@@ -336,6 +324,13 @@
 			<version>7.4-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
+		<!--ChestSort API-->
+        <dependency>
+            <groupId>de.jeff_media.chestsortapi</groupId>
+            <artifactId>ChestSortAPI</artifactId>
+            <version>11.0.0-SNAPSHOT</version>
+       	    <scope>provided</scope>
+        </dependency>
 		<!--WorldGuard API-->
 		<dependency>
 			<groupId>com.sk89q.worldguard</groupId>
