@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>me.RockinChaos.core</groupId>
+  <artifactId>ChaosCore</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20230430.221725</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20230430221725</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.1-20230430.221725-1</value>
+        <updated>20230430221725</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.1-20230430.221725-1</value>
+        <updated>20230430221725</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
