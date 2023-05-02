@@ -27,7 +27,8 @@
       <version>6.0.0-RELEASE</version>
       <version>6.0.1-SNAPSHOT</version>
       <version>6.0.1-RELEASE</version>
+      <version>6.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20230501010839</lastUpdated>
+    <lastUpdated>20230502231755</lastUpdated>
   </versioning>
 </metadata>
