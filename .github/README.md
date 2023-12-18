@@ -1,3 +1,10 @@
+> \[!WARNING]
+>
+> This repository is now in ARCHIVE ONLY mode and will NOT be updated!
+> This repository will be DELETED soon!
+> See repo.craftationgaming.com for the updated repository.
+
+
 <p align="center">
  See the <a href="https://github.com/RockinChaos/Repository/wiki">Repository Wiki</a> for the full detailed documentation on the usage.<br>
 </p>
