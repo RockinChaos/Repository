@@ -2,7 +2,7 @@
 >
 > This repository is now in `ARCHIVE ONLY` mode and will NOT be updated!
 > This repository will be `DELETED` soon!
-> See [repo.craftationgaming.com](repo.craftationgaming.com) for the updated repository.
+> See [https://repo.craftationgaming.com/](https://repo.craftationgaming.com/) for the updated repository.
 
 
 <p align="center">
